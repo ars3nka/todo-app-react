@@ -23,7 +23,7 @@ const TodoList = () => {
                 <h5>{todo.title}</h5>
                 <button
                   onClick={() =>
-                    axios.delete(`http://localhost:3001/todos/${todo.id}`)
+                    axios.delete(`http://localhost:8000/todos/${todo.id}`)
                   }
                 >
                   Удалить

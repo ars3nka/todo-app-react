@@ -10,7 +10,7 @@ export interface TodoRequestType {
 const postTodo = (data: TodoRequestType) =>
   axios<TodoType>({
     method: 'POST',
-    url: 'http://localhost:3001/todos',
+    url: 'http://localhost:8000/todos',
     data,
   });
 

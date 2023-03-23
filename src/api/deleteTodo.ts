@@ -7,7 +7,7 @@ export interface TodoDeleteRequestType {
 const deleteTodo = (data: TodoDeleteRequestType) =>
   axios({
     method: 'DELETE',
-    url: `http://localhost:3001/todos/${data.id}`,
+    url: `http://localhost:8000/todos/${data.id}`,
   });
 
 export default deleteTodo;
